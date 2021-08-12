@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Komika-Text-Kaps-Italic';
+    src:url('Komika-Text-Kaps-Italic.ttf.woff') format('woff'),
+        url('Komika-Text-Kaps-Italic.ttf.svg#Komika-Text-Kaps-Italic') format('svg'),
+        url('Komika-Text-Kaps-Italic.ttf.eot'),
+        url('Komika-Text-Kaps-Italic.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
