@@ -53,9 +53,14 @@ main .print-img
     position: absolute;
     right: 0;
 }
-main .mid-text
+main .mid-text p
 {
     margin-bottom: 30px;
+    text-indent: 25px;
+    font-family: 'murizalight';
+    font-weight: 600;
+    color: gray;
+    line-height: 20px;
 }
 
 .hr1 
@@ -115,4 +120,78 @@ main .mid-text
 h1
 {
     font-size: 50px;
+}
+
+h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.personalInfo {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+.personalInfo button {
+    position: absolute;
+    right: 0;
+    height: 50px;
+    background-color: rgb(214, 124, 124);
+    color: lightgray;
+}
+
+.personalInfo button:hover {
+    opacity: 60%;
+}
+
+.personalInfo div {
+    margin-left: 15px;
+}
+
+.personalInfo div p {
+    font-size: 20px;
+    font-family: 'murizalight';
+    font-weight: 600;
+    width: 70%;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+}
+
+.hr2 { 
+    background: url('../img/small-logo.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 18px;
+    border: 0;
+    position: relative;
+}
+.hr2:before,
+.hr2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 2px;
+    top: 8px;
+}
+.hr2:before {
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+.hr2:after {
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
+}
+
+footer div {
+    text-align: center;
+    margin-bottom: 30px;
+    color: gray;
+    font-family: 'murizalight';
 }
